@@ -1,6 +1,7 @@
 ---
-layout: single
+#layout: single
 title:  "Welcome to my site"
-categories: Site update
+categories: site-update
+tags: content test
 ---
-Hello World! 
+Hello World!

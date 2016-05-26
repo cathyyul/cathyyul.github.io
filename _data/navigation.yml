@@ -6,8 +6,8 @@ main:
   - title: "About"
     url: https://cathyyul.github.io/about/
 
-  #- title: "Sample Posts"
-  #  url: http://127.0.0.1:4000/year-archive/
+  - title: "View posts by categories"
+    url: https://cathyyul.github.io/categories/
 
   #- title: "Sample Pages"
   #  url: https://mmistakes.github.io/minimal-mistakes/page-archive/
