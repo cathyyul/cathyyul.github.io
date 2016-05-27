@@ -9,8 +9,8 @@ main:
   - title: "Categories"
     url: https://cathyyul.github.io/categories/
 
-  #- title: "Sample Pages"
-  #  url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+  # - title: "By year"
+  #  url: https://cathyyul.github.io/year-archive/
 
   #- title: "Sample Collections"
   #  url: https://mmistakes.github.io/minimal-mistakes/collection-archive/

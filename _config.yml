@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Do Research"
+locale                   : "en"
+title                    : "YT's Notes"
 title_separator          : "-"
-name                     : "cathyyul"
-description              : "A experimental website for github page testing (for now)"
+name                     : "Yu-Ting Yu"
+description              : "Computer science. Wireless networking. Programming. "
 url                      : "https://cathyyul.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -18,7 +18,7 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "facebook" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
@@ -35,24 +35,27 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "cathyyul"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "site-logo.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://twitter.com/cathyyul"
+    - "https://www.linkedin.com/in/yu-ting-yu-a9a33b2b"
+    # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-78365888-1"
 
 # Google AdSense
 google_ad_client         :
@@ -61,11 +64,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "cathyyul"
-  avatar           : "bio-photo.jpg"
-  bio              : "Computer scientist. Network researcher. Programmer. Making the world better."
+  name             : "Yu-Ting Yu"
+  avatar           : "yy-bio-photo.jpg"
+  bio              : "Study and make"
   location         : #"New Jersey"
-  email            : "ytydev@gmail.com"
+  email            : #"ytydev@gmail.com"
   uri              : "https://cathyyul.github.io"
   bitbucket        :
   codepen          :
@@ -78,13 +81,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : #"https://www.linkedin.com/"
+  linkedin         : "yu-ting-yu-a9a33b2b"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "cathyyul"
   vine             :
   weibo            :
   xing             :
@@ -225,3 +228,4 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true

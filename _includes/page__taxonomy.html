@@ -1,9 +1,22 @@
+<!--These don't seem to work anymore
 {% include base_path %}
-
 {% if site.tags.type and page.tags[0] %}
   {% include tag-list.html %}
 {% endif %}
-
 {% if site.categories.type and page.categories[0] %}
   {% include category-list.html %}
 {% endif %}
+-->
+<div class="post-tags">
+  {% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  {% if tags[0] %}
+    Tags:
+    {% for tag in tags %}
+    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  {% endif %}
+</div>
