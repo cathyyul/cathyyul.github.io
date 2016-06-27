@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "YT's Notes"
+title                    : "cathyyul's Notes"
 title_separator          : "-"
-name                     : "Yu-Ting Yu"
+name                     : "cathyyul"
 description              : "Computer science. Wireless networking. Programming. "
 url                      : "https://cathyyul.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -64,7 +64,7 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Yu-Ting Yu"
+  name             : "cathyyul"
   avatar           : "yy-bio-photo.jpg"
   bio              : "Study and make"
   location         : #"New Jersey"
@@ -81,7 +81,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "yu-ting-yu-a9a33b2b"
+  linkedin         : #"yu-ting-yu-a9a33b2b"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
