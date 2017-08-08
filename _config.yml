@@ -11,7 +11,7 @@ title                    : "cathyyul's Notes"
 title_separator          : "-"
 name                     : "cathyyul"
 description              : "Computer science. Wireless networking. Programming. "
-url                      : "https://cathyyul.github.io"
+url                      : "http://www.travelhackfun.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -69,7 +69,7 @@ author:
   bio              : "Study and make"
   location         : #"New Jersey"
   email            : #"ytydev@gmail.com"
-  uri              : "https://cathyyul.github.io"
+  uri              : "http://www.travelhackfun.com"
   bitbucket        :
   codepen          :
   dribbble         :
