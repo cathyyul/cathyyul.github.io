@@ -4,10 +4,10 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
   - title: "About"
-    url: https://cathyyul.github.io/about/
+    url: http://www.travelhackfun.com/about/
 
   - title: "Categories"
-    url: https://cathyyul.github.io/categories/
+    url: http://www.travelhackfun.com/categories/
 
   # - title: "By year"
   #  url: https://cathyyul.github.io/year-archive/
